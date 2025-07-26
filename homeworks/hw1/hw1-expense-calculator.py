@@ -7,7 +7,7 @@ Purpose: Calculate monthly budget and savings
 monthly_income = float(input("Enter your monthly income in THB: ")) #รับค่ารายต่อได้ต่อเดือน
 rent_cost = float(input("Enter your monthly rent/housing cost: ")) #รับค่าค่าเช่าต่อเดือน
 food_budget = int(input("Enter your monthly food budget in THB: ")) #รับค่ากินต่อเดือน
-transportation_cost =float(input("Enter your monthly transportation expenses: ")) #รับค่าเดินทางต่อเดือน
+transportation_cost = float(input("Enter your monthly transportation expenses: ")) #รับค่าเดินทางต่อเดือน
 entertainment_budget = int(input("Enter your monthly entertainment budget: ")) #รับค่าค่าเที่ยวต่อเดือน
 emergency_fund_percent = float(input("Enter your percentage to save for emergency: ")) #รับค่าเปอร์เซ็นต์ที่ต้องการสำรองเงิน
 investment_percent = float(input("Enter your percentage to invest: ")) #รับค่าเปอร์เซ็นต์ที่ต้องการลงทุน
@@ -35,6 +35,6 @@ print(f"Emergency Fund ({emergency_fund_percent:.0f}%): {emergency_fund_amount:.
 print(f"Investment ({investment_percent:.0f}%): {investment_amount:.2f} THB")
 print(f"Available for Savings: {available_for_savings:.2f} THB")
 
-#แสดงผลสัดเปอร์เซ็นต์ค่าใช้จ่ายเทียบกับรายได้ทั้งหมด
+#แสดงผลเปอร์เซ็นต์ค่าใช้จ่ายเทียบกับรายได้ทั้งหมด
 print("\n=== ANALYSIS ===")
 print(f"Expense Ratio: {expense_ratio:.2f}%")
