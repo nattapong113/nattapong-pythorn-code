@@ -6,7 +6,7 @@ Purpose: Calculate monthly budget and savings
 """
 monthly_income = float(input("Enter your monthly income in THB: ")) #รับค่ารายต่อได้ต่อเดือน
 rent_cost = float(input("Enter your monthly rent/housing cost: ")) #รับค่าค่าเช่าต่อเดือน
-food_budget = int(input("Enter your monthly food budget in THB: ")) #รับค่ากินต่อเดือน
+food_budget = int(input("Enter your monthly food budget in THB: ")) #รับค่าค่ากินต่อเดือน
 transportation_cost = float(input("Enter your monthly transportation expenses: ")) #รับค่าเดินทางต่อเดือน
 entertainment_budget = int(input("Enter your monthly entertainment budget: ")) #รับค่าค่าเที่ยวต่อเดือน
 emergency_fund_percent = float(input("Enter your percentage to save for emergency: ")) #รับค่าเปอร์เซ็นต์ที่ต้องการสำรองเงิน
