@@ -6,7 +6,7 @@ Create a class hierarchy:
     Implement a method get_info() in both classes
 
 """
-class hierarchy 
+class hierarchy: 
 
     def __init__(self, brand, model, year):
         self.brand = brand
