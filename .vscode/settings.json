@@ -8,7 +8,7 @@
 =======
 >>>>>>> upstream/main
 =======
-    "editor.fontSize": 20,
+    "editor.fontSize": 18,
     "editor.cursorBlinking": "solid",
     "editor.fontFamily": "Cascadia Mono",
     "editor.suggest.showVariables": true,
